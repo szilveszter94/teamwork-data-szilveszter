@@ -1,4 +1,18 @@
-let favBooks = [
+const favGame = [
+	{"title": "Minecraft",
+    	"developer": "Mojang Studios",
+    	"year": 2011,
+   	"geres": ["Sandbox", "Survival"],
+	"review": `Minecraft holds a special place in my heart because it allows me to unleash my creativity and build extraordinary worlds. The freedom and endless possibilities the game offers ignite my imagination and keep me coming back for more. Whether I'm exploring caves, constructing intricate structures, or embarking on epic adventures with friends, Minecraft never fails to captivate me with its enchanting charm.` 
+    	},
+	{"title": "Stronghold Crusader",
+    	"developer": "Firefly Studios",
+    	"year": 2001,
+   	"geres": ["Strategy", "Simulation"],
+	 "review": `I love Stronghold Crusader because it combines strategic depth with addictive gameplay. The thrill of planning and executing successful castle defenses or launching relentless sieges against my opponents keeps me engrossed for hours on end. The game's emphasis on resource management, troop deployment, and fortification strategies challenges my tactical skills and keeps me constantly engaged.`
+	}];
+
+const favBooks = [
     {"title": "1984",
     "author": "George Orwell",
     "year": 1949,
@@ -12,7 +26,7 @@ let favBooks = [
 	"review": `I love the book "Lord of the Flies" by William Golding for its chilling depiction of human nature and the inherent struggle between civilization and savagery, which leaves a lasting impact on your understanding of the complexities of society and the darkness that can reside within us all.` 
     }];
 
-let favSongs = [{
+const favSongs = [{
 	"title": "Break On Through (To the Other Side)",
 	"artist": "The Doors",
 	"year": 1967,
@@ -28,7 +42,7 @@ let favSongs = [{
 	"review": `I love the song "American Prayer" by The Doors for its poetic and introspective lyrics, combined with the band's signature sound. The song's fusion of rock, blues, and spoken word creates a captivating and thought-provoking experience.`
 }]
 
-let favMovies = [{
+const favMovies = [{
 	"title":"The Godfather",
 	"year":1972,
 	"rating":9.2,
@@ -69,7 +83,7 @@ let favMovies = [{
 	"review": `I love the movie "American Psycho" for its unsettling and satirical portrayal of a Wall Street investment banker's descent into madness and obsession. The film's sharp social commentary, dark humor, and Christian Bale's mesmerizing performance create a disturbing yet captivating experience. Its exploration of identity, materialism, and the veneer of perfection in American society challenges and disturbs, making it a thought-provoking and memorable psychological thriller.` 
 }]
 
-let ourTeam = {
+const ourTeam = {
 	name: "RandomNumber Generator(1,6)",
 	members:[
 		{
