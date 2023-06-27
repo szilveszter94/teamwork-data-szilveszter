@@ -1,4 +1,4 @@
-const favGame = [
+const favGame2 = [
 	{"title": "Minecraft",
     	"developer": "Mojang Studios",
     	"year": 2011,
@@ -10,6 +10,20 @@ const favGame = [
     	"year": 2001,
    	"geres": ["Strategy", "Simulation"],
 	 "review": `I love Stronghold Crusader because it combines strategic depth with addictive gameplay. The thrill of planning and executing successful castle defenses or launching relentless sieges against my opponents keeps me engrossed for hours on end. The game's emphasis on resource management, troop deployment, and fortification strategies challenges my tactical skills and keeps me constantly engaged.`
+	}];
+
+const favGame = [
+	{"title": "Diablo II",
+    	"developer": "Blizzard North",
+    	"year": 2000,
+   	"geres": ["Action role-playing", "Hack and slash"],
+	"review": `I love the nostalgic charm and timeless appeal of Diablo II. Its classic isometric graphics, haunting music, and immersive atmosphere transport me back to the dark and treacherous world of Sanctuary. The game's addictive loot system, intense combat, and endless character customization options make it an enduring favorite that I can always return to for an unforgettable gaming experience.` 
+    	},
+	{"title": "World of Warcraft (WoW)",
+    	"developer": "Blizzard Entertainment",
+    	"year": 2004,
+   	"geres": ["Massively multiplayer online", "Role-playing"],
+	 "review": `I love the constant evolution and support that WoW receives from its developers, ensuring that the game remains fresh and engaging. From regular content updates and expansions to quality-of-life improvements and balancing adjustments, the dedication to enhancing the gameplay experience keeps me invested and excited to see what's next in Azeroth.`
 	}];
 
 const favBooks = [
